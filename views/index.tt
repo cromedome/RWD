@@ -1,5 +1,5 @@
 <h1>Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.</h1>
-<img src="/images/keeper.jpg">
+<img src="/images/keeper.jpg" alt="">
 <form action="/quest" method="POST">
     <label for="name">What is your name?</label>
     <input type="text" name="name" id="name">
