@@ -44,9 +44,11 @@ engines:
 #    Simple:
 #      cookie_name: testapp.session
 #
+session: YAML
 engines:
-  session:
-    YAML:
-      cookie_name: rwd.session
-      is_secure: 1
-      is_http_only: 1
+    session:
+        YAML:
+            cookie_name: rwd.session
+            is_secure: 1
+            is_http_only: 1
+            session_dir: sessions/
