@@ -1,0 +1,22 @@
+<h1>Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.</h1>
+<img src="/images/keeper.jpg">
+<form action="/quest" method="POST">
+    <label for="name">What is your name?</label>
+    <input type="text" name="name" id="name">
+    <br>
+
+    <label for="quest">What is your quest?</label>
+    <select name="quest" id="quest">
+        <option value="grail">To seek the Grail!</option>
+    </select>
+    <br>
+
+    <label for="swallow">What is the airspeed velocity of an unladen swallow?</label>
+    <select name="swallow" id="swallow">
+        <option value="dontknow">I don't know...</option>
+        <option value="kind">What kind? African or European?</option>
+    </select>
+    <br>
+
+    <button type="submit">Try to cross...</button>
+</form>
